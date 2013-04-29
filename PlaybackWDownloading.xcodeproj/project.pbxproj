@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D612BFD172801EF001DE961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D612BFC172801EF001DE961 /* UIKit.framework */; };
+		6D612BFF172801EF001DE961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D612BFE172801EF001DE961 /* Foundation.framework */; };
+		6D612C01172801EF001DE961 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D612C00172801EF001DE961 /* CoreGraphics.framework */; };
+		6D612C07172801EF001DE961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D612C05172801EF001DE961 /* InfoPlist.strings */; };
+		6D612C09172801EF001DE961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D612C08172801EF001DE961 /* main.m */; };
+		6D612C0D172801EF001DE961 /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D612C0C172801EF001DE961 /* PDAppDelegate.m */; };
+		6D612C0F172801EF001DE961 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D612C0E172801EF001DE961 /* Default.png */; };
+		6D612C11172801EF001DE961 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D612C10172801EF001DE961 /* Default@2x.png */; };
+		6D612C13172801EF001DE961 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D612C12172801EF001DE961 /* Default-568h@2x.png */; };
+		6D612C16172801EF001DE961 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D612C14172801EF001DE961 /* MainStoryboard.storyboard */; };
+		6D612C19172801EF001DE961 /* PDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D612C18172801EF001DE961 /* PDViewController.m */; };
+		6D612C2817280430001DE961 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D612C2717280430001DE961 /* MediaPlayer.framework */; };
+		6D612C2B172804E0001DE961 /* PDProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D612C2A172804E0001DE961 /* PDProgressView.m */; };
+		6D612C2D17280CA7001DE961 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D612C2C17280CA7001DE961 /* QuartzCore.framework */; };
+		6D612C3017283203001DE961 /* PDSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D612C2F17283202001DE961 /* PDSlider.m */; };
+		6DD3F3DE172E6F2C007BE768 /* LBYouTubeExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3F3DB172E6F2C007BE768 /* LBYouTubeExtractor.m */; };
+		6DD3F3DF172E6F2C007BE768 /* LBYouTubePlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3F3DD172E6F2C007BE768 /* LBYouTubePlayerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D612BF9172801EF001DE961 /* PlaybackWDownloading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaybackWDownloading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D612BFC172801EF001DE961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D612BFE172801EF001DE961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D612C00172801EF001DE961 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D612C04172801EF001DE961 /* PlaybackWDownloading-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaybackWDownloading-Info.plist"; sourceTree = "<group>"; };
+		6D612C06172801EF001DE961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D612C08172801EF001DE961 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D612C0A172801EF001DE961 /* PlaybackWDownloading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaybackWDownloading-Prefix.pch"; sourceTree = "<group>"; };
+		6D612C0B172801EF001DE961 /* PDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDAppDelegate.h; sourceTree = "<group>"; };
+		6D612C0C172801EF001DE961 /* PDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDAppDelegate.m; sourceTree = "<group>"; };
+		6D612C0E172801EF001DE961 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6D612C10172801EF001DE961 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6D612C12172801EF001DE961 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6D612C15172801EF001DE961 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6D612C17172801EF001DE961 /* PDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDViewController.h; sourceTree = "<group>"; };
+		6D612C18172801EF001DE961 /* PDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDViewController.m; sourceTree = "<group>"; };
+		6D612C2717280430001DE961 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6D612C29172804E0001DE961 /* PDProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDProgressView.h; sourceTree = "<group>"; };
+		6D612C2A172804E0001DE961 /* PDProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDProgressView.m; sourceTree = "<group>"; };
+		6D612C2C17280CA7001DE961 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6D612C2E17283202001DE961 /* PDSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDSlider.h; sourceTree = "<group>"; };
+		6D612C2F17283202001DE961 /* PDSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDSlider.m; sourceTree = "<group>"; };
+		6DD3F3D9172E6F2C007BE768 /* LBYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTube.h; sourceTree = "<group>"; };
+		6DD3F3DA172E6F2C007BE768 /* LBYouTubeExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubeExtractor.h; sourceTree = "<group>"; };
+		6DD3F3DB172E6F2C007BE768 /* LBYouTubeExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubeExtractor.m; sourceTree = "<group>"; };
+		6DD3F3DC172E6F2C007BE768 /* LBYouTubePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBYouTubePlayerController.h; sourceTree = "<group>"; };
+		6DD3F3DD172E6F2C007BE768 /* LBYouTubePlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBYouTubePlayerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D612BF6172801EF001DE961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D612C2D17280CA7001DE961 /* QuartzCore.framework in Frameworks */,
+				6D612C2817280430001DE961 /* MediaPlayer.framework in Frameworks */,
+				6D612BFD172801EF001DE961 /* UIKit.framework in Frameworks */,
+				6D612BFF172801EF001DE961 /* Foundation.framework in Frameworks */,
+				6D612C01172801EF001DE961 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D612BF0172801EF001DE961 = {
+			isa = PBXGroup;
+			children = (
+				6D612C02172801EF001DE961 /* PlaybackWDownloading */,
+				6D612BFB172801EF001DE961 /* Frameworks */,
+				6D612BFA172801EF001DE961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D612BFA172801EF001DE961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D612BF9172801EF001DE961 /* PlaybackWDownloading.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D612BFB172801EF001DE961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D612C2717280430001DE961 /* MediaPlayer.framework */,
+				6D612C2C17280CA7001DE961 /* QuartzCore.framework */,
+				6D612BFC172801EF001DE961 /* UIKit.framework */,
+				6D612BFE172801EF001DE961 /* Foundation.framework */,
+				6D612C00172801EF001DE961 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D612C02172801EF001DE961 /* PlaybackWDownloading */ = {
+			isa = PBXGroup;
+			children = (
+				6DD3F3D8172E6F2C007BE768 /* LBYouTubeView */,
+				6D612C0B172801EF001DE961 /* PDAppDelegate.h */,
+				6D612C0C172801EF001DE961 /* PDAppDelegate.m */,
+				6D612C14172801EF001DE961 /* MainStoryboard.storyboard */,
+				6D612C17172801EF001DE961 /* PDViewController.h */,
+				6D612C18172801EF001DE961 /* PDViewController.m */,
+				6D612C29172804E0001DE961 /* PDProgressView.h */,
+				6D612C2A172804E0001DE961 /* PDProgressView.m */,
+				6D612C2E17283202001DE961 /* PDSlider.h */,
+				6D612C2F17283202001DE961 /* PDSlider.m */,
+				6D612C03172801EF001DE961 /* Supporting Files */,
+			);
+			path = PlaybackWDownloading;
+			sourceTree = "<group>";
+		};
+		6D612C03172801EF001DE961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D612C04172801EF001DE961 /* PlaybackWDownloading-Info.plist */,
+				6D612C05172801EF001DE961 /* InfoPlist.strings */,
+				6D612C08172801EF001DE961 /* main.m */,
+				6D612C0A172801EF001DE961 /* PlaybackWDownloading-Prefix.pch */,
+				6D612C0E172801EF001DE961 /* Default.png */,
+				6D612C10172801EF001DE961 /* Default@2x.png */,
+				6D612C12172801EF001DE961 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DD3F3D8172E6F2C007BE768 /* LBYouTubeView */ = {
+			isa = PBXGroup;
+			children = (
+				6DD3F3D9172E6F2C007BE768 /* LBYouTube.h */,
+				6DD3F3DA172E6F2C007BE768 /* LBYouTubeExtractor.h */,
+				6DD3F3DB172E6F2C007BE768 /* LBYouTubeExtractor.m */,
+				6DD3F3DC172E6F2C007BE768 /* LBYouTubePlayerController.h */,
+				6DD3F3DD172E6F2C007BE768 /* LBYouTubePlayerController.m */,
+			);
+			path = LBYouTubeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D612BF8172801EF001DE961 /* PlaybackWDownloading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D612C1C172801EF001DE961 /* Build configuration list for PBXNativeTarget "PlaybackWDownloading" */;
+			buildPhases = (
+				6D612BF5172801EF001DE961 /* Sources */,
+				6D612BF6172801EF001DE961 /* Frameworks */,
+				6D612BF7172801EF001DE961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaybackWDownloading;
+			productName = PlaybackWDownloading;
+			productReference = 6D612BF9172801EF001DE961 /* PlaybackWDownloading.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D612BF1172801EF001DE961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Akki;
+			};
+			buildConfigurationList = 6D612BF4172801EF001DE961 /* Build configuration list for PBXProject "PlaybackWDownloading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D612BF0172801EF001DE961;
+			productRefGroup = 6D612BFA172801EF001DE961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D612BF8172801EF001DE961 /* PlaybackWDownloading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D612BF7172801EF001DE961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D612C07172801EF001DE961 /* InfoPlist.strings in Resources */,
+				6D612C0F172801EF001DE961 /* Default.png in Resources */,
+				6D612C11172801EF001DE961 /* Default@2x.png in Resources */,
+				6D612C13172801EF001DE961 /* Default-568h@2x.png in Resources */,
+				6D612C16172801EF001DE961 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D612BF5172801EF001DE961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D612C09172801EF001DE961 /* main.m in Sources */,
+				6D612C0D172801EF001DE961 /* PDAppDelegate.m in Sources */,
+				6D612C19172801EF001DE961 /* PDViewController.m in Sources */,
+				6D612C2B172804E0001DE961 /* PDProgressView.m in Sources */,
+				6D612C3017283203001DE961 /* PDSlider.m in Sources */,
+				6DD3F3DE172E6F2C007BE768 /* LBYouTubeExtractor.m in Sources */,
+				6DD3F3DF172E6F2C007BE768 /* LBYouTubePlayerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D612C05172801EF001DE961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D612C06172801EF001DE961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D612C14172801EF001DE961 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D612C15172801EF001DE961 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D612C1A172801EF001DE961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D612C1B172801EF001DE961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D612C1D172801EF001DE961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaybackWDownloading/PlaybackWDownloading-Prefix.pch";
+				INFOPLIST_FILE = "PlaybackWDownloading/PlaybackWDownloading-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D612C1E172801EF001DE961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaybackWDownloading/PlaybackWDownloading-Prefix.pch";
+				INFOPLIST_FILE = "PlaybackWDownloading/PlaybackWDownloading-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D612BF4172801EF001DE961 /* Build configuration list for PBXProject "PlaybackWDownloading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D612C1A172801EF001DE961 /* Debug */,
+				6D612C1B172801EF001DE961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D612C1C172801EF001DE961 /* Build configuration list for PBXNativeTarget "PlaybackWDownloading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D612C1D172801EF001DE961 /* Debug */,
+				6D612C1E172801EF001DE961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D612BF1172801EF001DE961 /* Project object */;
+}
